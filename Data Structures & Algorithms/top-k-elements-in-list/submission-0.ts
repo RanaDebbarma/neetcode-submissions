@@ -7,7 +7,6 @@ class Solution {
     topKFrequent(nums: number[], k: number): number[] {
         const result: number[] = [];
         const frequencyMap = new Map<number, number>();
-        // const buckets: number[][] = Array.from({ length: nums.length + 1 }, () => []);
 
         // better bucket initialization
         const buckets: number[][] = new Array(nums.length + 1);

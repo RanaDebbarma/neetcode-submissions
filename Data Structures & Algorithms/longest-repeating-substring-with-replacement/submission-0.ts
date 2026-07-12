@@ -19,6 +19,7 @@ class Solution {
                 r++;
             } else {
                 l++;
+                r++;
             }
         }
 
